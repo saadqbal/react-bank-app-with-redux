@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Redux
+
+This app demonstarte the basic usage of the redux state management library. <br />
+- With redux you can have a simple predicatble state of your whole application. <br />
+- The states can only be updated by dispatching an action to the store using the dispatch function. <br />
+- Every action flows through the Reducer. In reducer, we use a switch statement to handle different action types.<br />
+- You must not mutate the state received in the Reducer. Instead, you should always return a new copy the state.
+- In order to re-render your app to show the updated state, use the **store.subscribe()** method. 
+- 
 ## Available Scripts
 
 In the project directory, you can run:
